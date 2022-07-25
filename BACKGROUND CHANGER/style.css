@@ -1,0 +1,84 @@
+/*Removing default browser styles*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+
+/*Styles for the paragraph*/
+p{
+   
+    background-color: rgb(5, 5, 31);
+    color: white;
+width: 30%;
+height:3rem;
+margin:auto;
+text-align: center;
+margin-top: 12px;
+padding: 12px;
+
+
+
+}
+
+/*styles styles for div holding buttons*/
+#btnz{
+    margin: auto;
+  
+    width:50%;
+height:50vh ;
+display:flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+
+
+/*styles targetting all the buttons*/
+button{
+width:9rem;
+height:2.3rem;
+background-color: rgb(5, 5, 31);
+color:white;
+
+
+font-size: 0.9rem;
+border:none;
+border-radius: 4px;
+margin-top: 10px;
+padding:10px;
+transition: background-color 2s;
+}
+
+
+/*Hovering over the buttons*/
+button:hover{
+background-color: indigo;
+}
+
+/*making the page responsive for mobile phones*/
+@media screen  and (max-width:576px){
+    #btnz{
+        margin: auto;
+        border:2px solid red;
+        width:50%;
+    height:50vh ;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+    }
+
+    p{
+        width:80%;
+    }
+
+
+    #btnz{
+        border:none;
+    }
+
+}
